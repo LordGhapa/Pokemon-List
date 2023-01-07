@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PokeDex</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pokedex</h1>
+    <div class="input-wrapper">
+      <header>
+      <input id="filter" type="text" placeholder="N°, Name or Type">
+      <i  id="bntSeache" class="ph-magnifying-glass"></i>
+    </div>
+    <img  id="load" src="loading.gif" alt="loading">
+  </header>
+
+
+    <ul id="pokeUl" data-js="pokedex" class="pokedex"></ul>
+  </div>
+  
+
+  <script src="script1.js"></script>
+  <script src="filter.js"></script>
+</body>
+</html>
