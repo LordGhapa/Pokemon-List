@@ -37,7 +37,7 @@
   fetchPokemon()
 
   function filter() {
-    console.log("teste")
+   
     const Load = document.querySelector('#load').style.display = 'none'
 
 
